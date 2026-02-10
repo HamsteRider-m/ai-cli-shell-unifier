@@ -1,0 +1,14 @@
+# Ignore local editor and OS artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# PowerShell history
+*.history
+
+# Node artifacts if users add tests locally
+node_modules/
